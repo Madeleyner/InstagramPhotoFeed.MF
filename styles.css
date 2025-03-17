@@ -1,0 +1,83 @@
+body{
+    background: lightgray;
+    margin: 0 auto;
+}
+.box1{
+    background-image: url("/img/cora-000-mf.jpg");
+}
+.box2{
+    background-image: url("/img/dalmatian-arrain.jpg");
+}
+
+.box3{
+    background-image: url("/img/jose-0001.jpg");
+}
+
+.box4{
+    background-image: url("/img/dog1-box1.jpg");
+}
+#header{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    margin-bottom: 5px;
+}
+#header{
+	background: white;
+	margin-bottom: 15px;
+    width: 1000px;
+	margin: auto;
+    height: 60px;
+}
+.wrapper{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper #img1{
+    padding-top: 10px;
+    max-width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;      
+}
+
+.wrapper #div1{
+    background:white;
+    width: 650px;
+    margin: 30px;
+   /* height: 800px;*/
+}
+.wrapper #div1 #card {
+    height:40px;
+}
+.wrapper #div1 #card h2{
+    color:black;
+    margin: 10px;
+}
+.wrapper #div1 #card2 h2{
+    color:black;
+    margin: 10px;
+}
+.wrapper #div1 #card1 h2::after{
+    content:"12/14";
+    float:right;
+    color: lightgray;
+}
+
+.wrapper #div1 #card2 h2::after{
+    content:"12/17";
+    float:right;
+    color: lightgray;
+}
+
+.wrapper #text1{
+    height:10%;
+    margin: 10px;
+}
